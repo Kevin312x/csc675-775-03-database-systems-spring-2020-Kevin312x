@@ -1,7 +1,7 @@
 # CSC675-775 Section 03 Database Systems Spring 2020
 Welcome to Database Systems!. Please modify this README file with the following info: 
 
-1. Your name, and student id here
+1. Kevin Huynh, 916307020
 
 2. Update this table of assignments. Set to done after one of the assignments is completed:
 
