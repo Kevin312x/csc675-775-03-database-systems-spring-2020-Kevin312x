@@ -1,3 +1,13 @@
+# Grade
+
+```
+93/100
+```
+1. -2 Business Rules 
+2. -1 Use Case (#5 doesnt contain and isn't related to an actor)
+3. -2 Relation shouldn't point at each other (Made, ATM transaction, Transact)
+4. -2 Missing recursive relationship
+
 # The Semantic-Conceptual Model 
 
 In this homework, students will learn to design a database system from a concept based on use cases, bussines rules (database requeriments), and Entity Relation Diagrams (ERD). 
