@@ -142,3 +142,5 @@ def transfer(bacc_from, bacc_to, amount):
 
 def closeDatabase():
     db.closeDatabase()
+
+db.executeScript()

@@ -17,6 +17,19 @@ else:
     print('Failed to connect to database')
     exit()
 
+def executeScript():
+    file = open('675backup.sql', 'r')
+    readFile = file.read()
+    file.close()
+
+    queries = readFile.replace('\n', '').split(';')
+    for query in queries:
+        try:
+            cur.execute(query)
+        except:
+            print('Unable to execute command:', query)
+    commitDatabase()
+
 def queryDatabase(query, params):
     results = []
     cur.execute(query, params)
