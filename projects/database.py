@@ -4,9 +4,9 @@ mydb = ''
 cur = ''
 
 config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'password',
+    'host': 'csc675-finalproject.c9rxuqqvtijv.us-east-2.rds.amazonaws.com',
+    'user': 'admin',
+    'password': 'IYsSlqB6xbDCN9rjRmJ9',
     'database': 'banking_system'
 }
 
